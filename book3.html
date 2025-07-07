@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pride and Prejudice - Open Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Open Library</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Book Details -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 animate__animated animate__fadeInLeft">
+                    <img src="/images/lord of the rings.jpg" class="img-fluid book-img" alt="Pride and Prejudice">
+                </div>
+                <div class="col-md-8 animate__animated animate__fadeInRight">
+                    <h2>Lord of the rings</h2>
+                    <p><strong>Author:</strong>J.R.R Tolkien</p>
+                    <p><strong>Genre:</strong> Fantasy</p>
+                    <p><strong>Description:</strong>One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit.</p>
+                    <a href="#" class="btn btn-primary">Borrow Book</a>
+                </div>
+            </div>
+            <h3 class="mt-5">Related Books</h3>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card book-card">
+                        <img src="/images/hobbit.jpg" class="card-img-top" alt="Sense and Sensibility">
+                        <div class="card-body">
+                            <h5 class="card-title">The hobbit</h5>
+                            <p class="card-text">J.R.R Tolkien</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card book-card">
+                        <img src="/images/matilida.jpg" class="card-img-top" alt="Emma">
+                        <div class="card-body">
+                            <h5 class="card-title">Matilida</h5>
+                            <p class="card-text">Jane Austen</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Open Library. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Book Card Hover Effect */
+.book-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Book Image Styling */
+.book-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Hover Animation */
+.btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+section {
+    min-height: 80vh;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.row{
+
+  height: 300px;
+  object-fit: cover;
+}
+/* Uniform size for book cover images in cards */
+.card-img-top {
+    width: 100%; /* Ensures the image fills the card's width */
+    height: 400px; /* Set a fixed height (adjust as needed) */
+    object-fit: cover; /* Maintains aspect ratio and crops if necessary */
+    border-radius: 8px 8px 0 0; /* Matches card's top corners */
+}
+
+/* General card styling */
+.book-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+}
+
+.book-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Section padding and alignment */
+section {
+    padding: 60px 0; /* Adjust padding as needed */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 50%; /* Two columns on smaller screens */
+        max-width: 50%;
+    }
+    .card-img-top {
+        height: 300px; /* Reduced height for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-3 {
+        flex: 0 0 100%; /* One column on very small screens */
+        max-width: 100%;
+    }
+}
